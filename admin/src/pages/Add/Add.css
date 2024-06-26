@@ -1,0 +1,42 @@
+.add{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+.add-img-upload img{
+    width:170px;
+}
+.add-product-name,.add-product-description{
+    max-width:35%; 
+}
+.add-product-name input,.add-product-description textarea{
+    padding: 10px;
+}
+.add-category-price{
+    display: flex;
+    gap:30px;
+}
+.add-category-price select,.add-category-price input{
+    padding: 10px;
+}
+.add-btn{
+    max-width: 35%;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width:500px) {
+    
+    .add-category-price{
+        display: flex;
+        flex-direction: column;
+    }
+    .add-category-price select,.add-category-price input{
+        width:35%
+    }
+    
+}
