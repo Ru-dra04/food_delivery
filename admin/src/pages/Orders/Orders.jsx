@@ -6,7 +6,7 @@ import { assets } from '../../assets/assets';
 const Orders = () => {
   const [orders,setOrders]=useState([]);
   const [status,setStatus]=useState('');
-  const url="http://localhost:4000";
+  const url="https://food-delivery-628a.onrender.com";
   const fetchAllOrders=async()=>{
     const response=await axios.get(`${url}/api/order/all`);
     if(response.data.success){

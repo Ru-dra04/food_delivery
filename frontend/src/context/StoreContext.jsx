@@ -6,7 +6,7 @@ const StoreContextProvider=(props)=>{
     const [add,setAdd]=useState({});
     const [token,setToken]=useState('');
     const [food_list,setFood]=useState([]);
-    const url="http://localhost:4000";
+    const url="https://food-delivery-628a.onrender.com";
     const addItem=async (itemId)=>{
         if(!add[itemId]){
             setAdd((prev)=>{return {...prev,[itemId]:1}})
