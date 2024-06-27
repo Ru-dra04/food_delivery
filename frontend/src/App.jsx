@@ -18,10 +18,10 @@ const App = () => {
       <Navbar lg={lg} setlg={setlg}/>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/cart' element={<Cart/>} />
-        <Route path="/order" element={<PlaceOrder/>} />
-        <Route path="/verify" element={<Verify/>} />
-        <Route path='/myorders' element={<MyOrders/>}/>
+        <Route path='cart' element={<Cart/>} />
+        <Route path="order" element={<PlaceOrder/>} />
+        <Route path="verify" element={<Verify/>} />
+        <Route path='myorders' element={<MyOrders/>}/>
       </Routes>
     </div>
     <Footer/>
