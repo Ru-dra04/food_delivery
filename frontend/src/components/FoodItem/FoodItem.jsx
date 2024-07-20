@@ -8,7 +8,7 @@ const FoodItem = (props) => {
   return (
     <div className='food-item'>
     <div className="food-item-img-container">
-    <img className='food-item-image' src={`${url}/images/${props.img}`} alt="item" />
+    <img className='food-item-image' src={`https://res.cloudinary.com/dz0fq3mxq/image/upload/${props.img}`} alt="item" />
     {!add[props.id]?
     <img onClick={()=>{addItem(props.id)}} className='add' src={assets.add_icon_white} alt='add'/>:
     <div className='food-item-counter'>

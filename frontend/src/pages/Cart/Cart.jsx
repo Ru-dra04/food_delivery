@@ -24,7 +24,7 @@ const Cart = () => {
         if(add[item._id]>0){
           //total+=item.price*60*add[item._id];
           return <div><div className='cart-items-title cart-items-item'>
-            <img src={`${url}/images/${item.image}`} alt="" />
+            <img src={`https://res.cloudinary.com/dz0fq3mxq/image/upload/${item.image}`} alt="" />
             <p>{item.name}</p>
             <p>{item.price}/-</p>
             <p>{add[item._id]}</p>
