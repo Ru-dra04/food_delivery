@@ -77,3 +77,31 @@ Developed a feature allowing admins to update order statuses, ensuring efficient
 #### 3. Configure environment variables for MongoDB and Stripe API keys in a .env file.
 #### 4. Start the development server:
      #### npm start
+
+# Dependencies
+To run this food delivery website and application, the following dependencies are required:
+### Frontend Dependencies
+#### React: JavaScript library for building the user interface.
+#### React Router: Provides navigation and routing capabilities for the app.
+#### Axios: For making HTTP requests to the backend.
+#### Stripe React: Enables integration with Stripe for secure payments.
+
+### Backend Dependencies
+#### Express: Web application framework for Node.js.
+#### Mongoose: Provides MongoDB object modeling for Node.js.
+#### jsonwebtoken: For implementing JSON Web Token (JWT) based authentication.
+#### bcryptjs: For hashing user passwords securely.
+#### Stripe: Library for processing payments through Stripe’s API.
+
+### Additional Tools
+#### MongoDB Atlas: Cloud-hosted MongoDB for database management.
+#### Dotenv: Loads environment variables from a .env file into the app.
+
+#### You can install all dependencies by running:
+      #### npm install
+
+# Conclusion
+This food delivery website and application project provides a comprehensive platform for ordering food, with essential features such as user authentication, a shopping cart, an order management system, and a secure payment system using Stripe. The project is built to be responsive, ensuring an optimal user experience across different devices. With the admin panel, administrators can efficiently manage food items, view customer orders, and update order statuses.
+
+This documentation, along with the codebase, provides a detailed guide for setting up, running, and understanding each aspect of the application, making it easier for future developers to enhance and maintain the project. Thank you for exploring this documentation!
+
