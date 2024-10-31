@@ -11,19 +11,19 @@ This project is a full-stack food delivery website and application with both a u
 ## Table of Contents
 ### 1. Frontend Development
 #### Create Frontend for Food Delivery Website.
-#### Responsive Design
-#### User Authentication
-#### Cart and Order Pages
+#### -> Responsive Design
+#### -> User Authentication
+#### -> Cart and Order Pages
 
 ### 2. Backend Development
 #### Setup MongoDB Atlas
-#### Admin Panel
-#### Food and Order Management
+#### -> Admin Panel
+#### -> Food and Order Management
 
 ### 3. Integration and Testing
 #### Shop Cart and Stripe Integration
-#### Order History
-#### Order Management
+#### -> Order History
+#### -> Order Management
 
 ## 1. Frontend Development
 ### Create Frontend for Food Delivery Website
@@ -65,37 +65,37 @@ Developed a feature allowing admins to update order statuses, ensuring efficient
 
 # Getting Started
 ## Prerequisites
-#### Node.js and npm
-#### MongoDB Atlas account
-#### Stripe account for payment integration
+#### -> Node.js and npm
+#### -> MongoDB Atlas account
+#### -> Stripe account for payment integration
 
 ## Installation
 #### 1. Clone this repository:
-     #### git clone <repository-url>
+     git clone <repository-url>
 #### 2. Install dependencies:
-     #### npm install
+     npm install
 #### 3. Configure environment variables for MongoDB and Stripe API keys in a .env file.
 #### 4. Start the development server:
-     #### npm start
+     npm start
 
 # Dependencies
 To run this food delivery website and application, the following dependencies are required:
 ### Frontend Dependencies
-#### React: JavaScript library for building the user interface.
-#### React Router: Provides navigation and routing capabilities for the app.
-#### Axios: For making HTTP requests to the backend.
-#### Stripe React: Enables integration with Stripe for secure payments.
+#### -> React: JavaScript library for building the user interface.
+#### -> React Router: Provides navigation and routing capabilities for the app.
+#### -> Axios: For making HTTP requests to the backend.
+#### -> Stripe React: Enables integration with Stripe for secure payments.
 
 ### Backend Dependencies
-#### Express: Web application framework for Node.js.
-#### Mongoose: Provides MongoDB object modeling for Node.js.
-#### jsonwebtoken: For implementing JSON Web Token (JWT) based authentication.
-#### bcryptjs: For hashing user passwords securely.
-#### Stripe: Library for processing payments through Stripe’s API.
+#### -> Express: Web application framework for Node.js.
+#### -> Mongoose: Provides MongoDB object modeling for Node.js.
+#### -> jsonwebtoken: For implementing JSON Web Token (JWT) based authentication.
+#### -> bcryptjs: For hashing user passwords securely.
+#### -> Stripe: Library for processing payments through Stripe’s API.
 
 ### Additional Tools
-#### MongoDB Atlas: Cloud-hosted MongoDB for database management.
-#### Dotenv: Loads environment variables from a .env file into the app.
+#### -> MongoDB Atlas: Cloud-hosted MongoDB for database management.
+#### -> Dotenv: Loads environment variables from a .env file into the app.
 
 #### You can install all dependencies by running:
       #### npm install
