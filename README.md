@@ -26,41 +26,41 @@ This project is a full-stack food delivery website and application with both a u
 #### -> Order Management
 
 ## 1. Frontend Development
-#### Create Frontend for Food Delivery Website
+#### -> Create Frontend for Food Delivery Website
 Designed a user-friendly frontend for the food delivery application using HTML, CSS, and JavaScript with React for a dynamic and interactive interface.
-#### Make the Website Responsive
+#### -> Make the Website Responsive
 Enhanced the frontend with responsive design principles to ensure optimal viewing experience across various devices and screen sizes
-#### Create Sign In / Sign Up Component
+#### -> Create Sign In / Sign Up Component
 Built a login and registration component using React, allowing users to sign in and sign up securely.
-#### Create Cart Page
+#### -> Create Cart Page
 Implemented the cart page, where users can review selected items before proceeding to checkout.
-#### Create Place Order Page
+#### -> Create Place Order Page
 Designed a place order page to finalize user orders, allowing for easy review and editing of order details.
 
 ## 2. Backend Development
-#### Create Backend of Food App
+#### -> Create Backend of Food App
 Developed the server using Node.js and Express to handle data and business logic for the food delivery service.
-#### Setup MongoDB Atlas
+#### -> Setup MongoDB Atlas
 Connected the app to MongoDB Atlas, enabling cloud-based database management for storing user data, orders, and food items.
-#### Create Admin Panel
+#### -> Create Admin Panel
 Created an admin interface using React to allow admin users to manage food items, view orders, and update statuses.
-#### Display Food List in Admin Panel
+#### -> Display Food List in Admin Panel
 Populated the admin panel with a list of food items retrieved from the MongoDB database.
-#### Create User Authentication
+#### -> Create User Authentication
 Developed a user authentication system to manage secure login and registration processes.
 
 ## 3. Integration and Testing
-#### Fetch Food Data on Frontend
+#### -> Fetch Food Data on Frontend
 Fetched and displayed food data on the frontend by making API calls to the backend, ensuring real-time updates to food listings.
-#### Create Shop Cart Functionality
+#### -> Create Shop Cart Functionality
 Implemented the shopping cart, allowing users to add and remove items, manage quantities, and view a running total.
-#### Create Place Order Feature and Stripe Payment Integration
+#### -> Create Place Order Feature and Stripe Payment Integration
 Added a place order feature along with Stripe payment integration for secure transactions.
-#### Create User Order Page
+#### -> Create User Order Page
 Created an order history page where users can view their previous orders and track their order status.
-#### Display Orders in Admin Panel
+#### -> Display Orders in Admin Panel
 Displayed user orders in the admin panel, providing admins with visibility and control over all orders.
-#### Create Order Update Feature
+#### -> Create Order Update Feature
 Developed a feature allowing admins to update order statuses, ensuring efficient management of the delivery process.
 
 # Getting Started
