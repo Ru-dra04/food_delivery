@@ -10,18 +10,18 @@ This project is a full-stack food delivery website and application with both a u
 
 ## Table of Contents
 ### 1. Frontend Development
-#### Create Frontend for Food Delivery Website.
+### Create Frontend for Food Delivery Website.
 #### -> Responsive Design
 #### -> User Authentication
 #### -> Cart and Order Pages
 
 ### 2. Backend Development
-#### Setup MongoDB Atlas
+### Setup MongoDB Atlas
 #### -> Admin Panel
 #### -> Food and Order Management
 
 ### 3. Integration and Testing
-#### Shop Cart and Stripe Integration
+### Shop Cart and Stripe Integration
 #### -> Order History
 #### -> Order Management
 
@@ -98,7 +98,7 @@ To run this food delivery website and application, the following dependencies ar
 #### -> Dotenv: Loads environment variables from a .env file into the app.
 
 #### You can install all dependencies by running:
-      #### npm install
+      npm install
 
 # Conclusion
 This food delivery website and application project provides a comprehensive platform for ordering food, with essential features such as user authentication, a shopping cart, an order management system, and a secure payment system using Stripe. The project is built to be responsive, ensuring an optimal user experience across different devices. With the admin panel, administrators can efficiently manage food items, view customer orders, and update order statuses.
